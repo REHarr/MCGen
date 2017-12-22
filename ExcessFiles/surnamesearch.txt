@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#F5DEB3" BACKGROUND="Image31.jpg">
+
+<FORM ACTION="/cgi-bin/local/mailmerge.cgi/home0023/ohmccogs/public_html/surnames.tmp" METHOD=POST>
+<CENTER><H2>SURNAME FILE FORM -- SEARCHING FOR INFORMATION ON<BR>ANCESTORS AND DESCENDANTS OF MONROE COUNTY RESIDENTS</H2><BR></CENTER>
+The Monroe County Chapter of the Ohio Genealogical Society (MCC of OGS) maintains a <B>Surname File</B> in which<BR>
+members and non-members may submit surnames of the families of former and current residents of Monroe County, Ohio.<BR>
+Surnames submitted to the Surname File are published in the MCC of OGS newsletter, <B><I>The Navigator,</B></I> as they are received.<BR>
+The historical Surname File is currently available as a card file in the MCC of OGS Reading Room located in the Monroe<BR>
+County Regional Library at the intersection of State Route 78 (east of the center of town) and Home Avenue.  The Surname<BR>
+card file is currently being computerized and will be placed on this web site in the near future.  This is an excellent way<BR>
+to locate others who may be searching for the same ancestral lines.  Many relatives have been located through this service.<BR>
+You are invited and encouraged to submit your list of surnames.  Who knows whom you might meet this way?<BR><BR>
+Submit as many surnames as you like, but, PLEASE SUBMIT ONLY <B><U>ONE</U> SURNAME</B> ON EACH ON-LINE FORM.  
+
+<CENTER><STRONG><P>Your Name:</STRONG><BR>
+
+<INPUT TYPE="TEXT" NAME="NAMEs">
+</P>
+<STRONG><P>Your E-mail address:</STRONG><BR>
+
+<INPUT TYPE="TEXT" NAME="emails">
+</P>
+<STRONG><P>Your Postal address:</STRONG><BR>
+
+<INPUT TYPE="TEXT" NAME="addresss">
+</P>
+<STRONG><P>Your City, State, Zip-Code:</STRONG><BR>
+
+<INPUT TYPE="TEXT" NAME="citys">
+</P>
+<STRONG><P>Your Surname goes here:</STRONG><BR>
+
+<INPUT TYPE="TEXT" NAME="surnames">
+</P>
+
+<STRONG><P>Please submit only <U>one</U> surname per form.<BR>
+Provide any additional information on this surname that might help others<BR>
+recognize your surname and the specific information and connections that you are seeking:</STRONG><BR>
+
+<TEXTAREA ROWS="15" COLS="65" NAME="Querys"></TEXTAREA>
+</P>
+<P>
+<INPUT TYPE="reset" VALUE="Clear Form">
+
+<INPUT TYPE="submit" VALUE="Enter Query">
+</P></CENTER></BODY>
+</HTML>
