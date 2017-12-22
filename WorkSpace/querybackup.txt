@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#F5DEB3" BACKGROUND="Image31.jpg">
+
+<FORM ACTION="/cgi-bin/local/mailmerge.cgi/home0023/ohmccogs/public_html/query.tmp" METHOD=POST>
+<CENTER><H2>QUERY FORM FOR MONROE COUNTY CHAPTER<BR>of the OHIO GENEALOGICAL SOCIETY</H2><BR></CENTER>
+To place a query with the MCC of OGS, please fill in the form below.  Be sure to include your name so that we (and others<BR>
+who may have an answer to your query) know to whom to respond.  Please be sure you e-mail address is correct so we<BR>
+know where to respond.  PLEASE, INCLUDE YOUR HOME ADDRESS IN THE BODY OF THE QUERY.  Members<BR>
+may submit queries for inclusion in the MCC of OGS newsletter, <B><I>The Navigator</B></I>, at no cost.  Non-members may submit<BR>
+queries for $1.00 per query.  All queries must directly or indirectly pertain to Monroe County.  If you prefer to submit your<BR>
+query by regular mail, send it to The Navigator, Monroe Chapter OGS, Box 641, Woodsfield, Ohio,  43793.<BR>
+<CENTER><STRONG><P>Your Name:</STRONG><BR>
+
+<INPUT TYPE="TEXT" NAME="NAME">
+</P>
+<STRONG><P>Your E-mail address:</STRONG><BR>
+
+<INPUT TYPE="TEXT" NAME="email">
+</P>
+<STRONG><P>Please type your comments:</STRONG><BR>
+
+<TEXTAREA ROWS="15" COLS="65" NAME="Query"></TEXTAREA>
+</P>
+<P>
+<INPUT TYPE="reset" VALUE="Clear Form">
+
+<INPUT TYPE="submit" VALUE="Enter Query">
+</P></CENTER></BODY>
+
+</HTML>
+
+
+
+

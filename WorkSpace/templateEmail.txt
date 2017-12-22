@@ -1,0 +1,24 @@
+ACTION=mail 
+
+SUBJECT=Monroe County Query
+TO=richardharrington@erols.com
+WORDWRAP=72 
+TITLE=Query has been sent. 
+AUTHOR=
+ADDRESS=<A HREF="http://www.rootsweb.com/~ohmccogs/index.html">RETURN to Monroe County Chapter of Ohio Genealogical Society</a> 
+. 
+
+MAIL_HEADER= 
+To: @TO@ 
+From: @email@ 
+Reply-to: @email@ 
+Subject: @SUBJECT@ 
+X-mail-agent: mailmerge v1.0 
+. 
+
+OUTPUT_FORM= 
+@NAME@, < @email@ > has sent the following query: 
+@address@, @city@
+
+@Query@ 
+. 
