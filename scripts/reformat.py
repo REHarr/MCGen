@@ -1,6 +1,8 @@
 import codecs
 import os, re
 
+# http://www.i18nqa.com/debug/utf8-debug.html
+
 cp_1252_chars = {
     # from http://www.microsoft.com/typography/unicode/1252.htm
     u"\x80": u"\u20AC", # EURO SIGN
@@ -42,7 +44,7 @@ def fix_1252_codes(text):
             s = m.group(0)
             return cp_1252_chars.get(s, s)
         if isinstance(text, type("")):
-            text = unicode(text, "iso-8859-1")
+            text = str(text)
         text = re.sub(u"[\x80-\x9f]", fixup, text)
     return text 
 
@@ -53,25 +55,29 @@ def clean_contents( contents ):
     # Conversion
     #contents = contents.decode('iso-8859-1',errors='replace').encode('utf-8',errors='replace')
     contents = fix_1252_codes(contents)
+    #contents = contents.replace('\xc3\xc2','&nbsp;')
+    #contents = contents.replace('\xc3\xe2','--')
 
     contents = ''.join([i if ord(i) < 128 else ' ' for i in contents])
     return contents
 
 # Read and write a file to clean its contents
 def clean_file( this_filename ):
-    f = codecs.open(this_filename, 'r')
+    f = codecs.open(this_filename, 'r', encoding="iso-8859-1")
     contents = f.read()    
     f.close()
     
     contents = clean_contents( contents )
     
-    f = open( this_filename, 'w' )
-    f.write(contents)
+    f = open( this_filename, 'wb' )
+    f.write(bytes(contents.encode('utf-8')))
     f.close()
     return this_filename
 
-clean_file( 'testchar.txt' )
-    
+#clean_file( 'index.htm' )
+#clean_file( 'Brownfield.htm' )
+clean_file( 'HarringtonFamilyBookPosted6Jan2017.htm' )
+
 '''
 filename='../Ackerman.htm'
 
