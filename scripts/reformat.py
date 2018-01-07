@@ -83,7 +83,21 @@ def clean_file( this_filename ):
 #clean_file( 'index.htm' )
 #clean_file( 'Brownfield.htm' )
 #clean_file( 'HarringtonFamilyBookPosted6Jan2017.htm' )
-clean_file( 'Ackerman.htm' )
+#clean_file( 'Ackerman.htm' )
+
+#clean_file( 'Ackerman.htm' )
+
+# Run on all files
+listing = [ filename for filename in os.listdir('../') if filename.find('.htm') > 0 ]
+
+
+
+for filename in listing:
+    this_filename = '../' + filename
+    
+    clean_file( this_filename )
+
+
 
 '''
 filename='../Ackerman.htm'
