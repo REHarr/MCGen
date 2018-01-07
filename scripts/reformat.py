@@ -91,7 +91,6 @@ def clean_file( this_filename ):
 listing = [ filename for filename in os.listdir('../') if filename.find('.htm') > 0 ]
 
 
-
 for filename in listing:
     this_filename = '../' + filename
     
