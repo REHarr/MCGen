@@ -1,6 +1,10 @@
 import codecs
 import os, re
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 # http://www.i18nqa.com/debug/utf8-debug.html
 
 cp_1252_chars = {
@@ -54,9 +58,11 @@ def clean_contents( contents ):
 
     # Conversion
     #contents = contents.decode('iso-8859-1',errors='replace').encode('utf-8',errors='replace')
-    contents = fix_1252_codes(contents)
+    contents = contents.decode('cp1252',errors='replace').encode('utf-8',errors='replace')
+    #contents = fix_1252_codes(contents)
     #contents = contents.replace('\xc3\xc2','&nbsp;')
     #contents = contents.replace('\xc3\xe2','--')
+    contents = contents.replace( 'windows-1252', 'utf-8' )
 
     contents = ''.join([i if ord(i) < 128 else ' ' for i in contents])
     return contents
@@ -76,7 +82,8 @@ def clean_file( this_filename ):
 
 #clean_file( 'index.htm' )
 #clean_file( 'Brownfield.htm' )
-clean_file( 'HarringtonFamilyBookPosted6Jan2017.htm' )
+#clean_file( 'HarringtonFamilyBookPosted6Jan2017.htm' )
+clean_file( 'Ackerman.htm' )
 
 '''
 filename='../Ackerman.htm'
