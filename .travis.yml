@@ -3,3 +3,6 @@ rvm:
 - 2.3.3
 install: gem install jekyll html-proofer
 script: jekyll build
+notifications:
+  email:
+    - kephale00@gmail.com
