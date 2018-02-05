@@ -16,13 +16,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="PersonName"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
- name="country-region"/>
-<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="Street"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="address"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="State"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
  name="place"/>
 <o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
@@ -36,6 +36,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -242,14 +244,14 @@ st1\:*{behavior:url(#ieooui) }
 	mso-font-charset:128;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-134238209 -371195905 63 0 4129279 0;}
+	mso-font-signature:-1 -369098753 63 0 4129279 0;}
 @font-face
 	{font-family:Consolas;
 	panose-1:2 11 6 9 2 2 4 3 2 4;
 	mso-font-charset:0;
 	mso-generic-font-family:modern;
 	mso-font-pitch:fixed;
-	mso-font-signature:-536869121 64767 1 0 415 0;}
+	mso-font-signature:-520092929 1073806591 9 0 415 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -900,6 +902,12 @@ p.15, li.15, div.15
 	mso-bidi-font-size:12.0pt;
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1057,33 +1065,19 @@ years and 15 days.<o:p></o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Bates, Edward Bates<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>April 4, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 4,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 12th ult., at
 his residence in <st1:City w:st="on"><st1:place w:st="on">Salem</st1:place></st1:City>
-township, Mr. Edward Bates, aged 53 years, 10 months, and 12 days.<o:p></o:p></span></p>
+<span class=GramE>township</span>, Mr. Edward Bates, aged 53 years, 10 months,
+and 12 days.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Bennett, _____ Bennett<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 16, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'>Body Found In The River - The
-body of a man whose name appears from his papers to have been Bennett, was
-picked up by the steamer <st1:place w:st="on">Aquila</st1:place> at the mouth
-of Opposum creek.<span style='mso-spacerun:yes'>  </span>The body was left with
-the coroner at Sunfish.<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 16,
 1855<o:p></o:p></span></p>
@@ -1094,7 +1088,6 @@ have been Bennett, was picked up by the steamer <st1:place w:st="on">Aquila</st1
 at the mouth of <span class=SpellE>Opposum</span> creek.<span
 style='mso-spacerun:yes'>     </span>The body was left with the coroner at
 Sunfish.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1110,16 +1103,18 @@ w:st="on"><st1:place w:st="on">Monroe</st1:place></st1:City> county, O., aged
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Boice, Sarah Lucretia
-Boice<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Boice</span></b></span><b><span
+style='font-size:14.0pt'>, Sarah <span class=SpellE>Lucretia</span> <span
+class=SpellE>Boice</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 July 18, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - in <st1:place w:st="on"><st1:City
- w:st="on">Baresville</st1:City>, <st1:State w:st="on">Ohio</st1:State></st1:place>
-on the 12th inst., of congestive fever, Sarah Lucretia, daughter of Dr. John
-A., and Rebecca Boice, aged four years, three months and sixteen days.<o:p></o:p></span></p>
+ w:st="on"><span class=SpellE>Baresville</span></st1:City>, <st1:State w:st="on">Ohio</st1:State></st1:place>
+on the 12th inst., of congestive fever, Sarah <span class=SpellE>Lucretia</span>,
+daughter of Dr. John A., and Rebecca <span class=SpellE>Boice</span>, aged four
+years, three months and sixteen days.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>.<o:p></o:p></span></p>
 
@@ -1132,58 +1127,25 @@ thee hence,<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>Ere yet the world could
 breathe one blight<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>O'er they sweet innocence!<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-size:14.0pt'>O'er <span class=SpellE>they</span>
+sweet innocence!<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>And thou, that brighter come
 to bless,<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Art passed with all thy
-<<<<<<< HEAD
-loveliness! <span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'>  </span>N.<o:p></o:p></span></p>
-=======
 loveliness!<span style='mso-spacerun:yes'>                                                                                                             </span>N.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Brewer, Brice B. Brewer<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 9, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 9, 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Gratitude of Slaves - Two
 male slaves of the late Mr. Brice B. Brewer, of <st1:City w:st="on"><st1:place
  w:st="on">Annapolis</st1:place></st1:City>, were manumitted [sic] by him
-<<<<<<< HEAD
-previous to his recent death .<span style='mso-spacerun:yes'>  </span>A few
-days ago, however, they appeared before the orphans court of Anne Arundel
-county, and stated that they, and their mother, who had also been manumitted
-[sic], desired to serve Mrs. Brewer, their late master's widow, until she
-raised her youngest child, and therefore wished to be bound to her for ten
-years, and it is stated they appeared grieved when informed that they could be
-bound only until they arrived at the age of 21 years.<span
-style='mso-spacerun:yes'>  </span>They expressed their determination, however,
-to serve their mistress for 10 years.<span style='mso-spacerun:yes'> 
-</span>One is 20 and the other 18 years of age.<o:p></o:p></span></p>
-=======
 previous to his recent <span class=GramE>death .</span><span
 style='mso-spacerun:yes'>     </span>A few days ago, however, they appeared before
 the orphans court of Anne Arundel county, and stated that they, and their
@@ -1194,7 +1156,6 @@ informed that they could be bound only until they arrived at the age of 21
 years.<span style='mso-spacerun:yes'>     </span>They expressed their
 determination, however, to serve their mistress for 10 years.<span
 style='mso-spacerun:yes'>     </span>One is 20 and the other 18 years of age.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1206,31 +1167,10 @@ August 8, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Obituary - Died - on the 18th
 inst., at his residence in <st1:City w:st="on"><st1:place w:st="on">Summit</st1:place></st1:City>
-township, in this county, ALEXANDER CAMPBELL, aged eighty three years and eight
-months.<o:p></o:p></span></p>
+<span class=GramE>township</span>, in this county, ALEXANDER CAMPBELL, aged
+eighty three years and eight months.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-deceased was an old United Irishman one of the patriot soldiers of that period
-in the history of Ireland which is equivalent to the Revolution in our country;
-the only difference being, the latter was successful and the former was not.<span
-style='mso-spacerun:yes'>  </span>&quot;I remember,&quot; said he, a few hours
-before his death, &quot;the bonfires, &quot;the joy and enthusiasm with which
-the Declaration of Independence was received in the North of Ireland, when we
-received intelligence of that event.<span style='mso-spacerun:yes'>  </span>My
-uncle said he could hardly be restrained.<span style='mso-spacerun:yes'> 
-</span>Following the onstop of the times, he tapped a keg and called all his
-neighbors, poor and rich, to partake, who would drink <st1:State w:st="on"><st1:place
- w:st="on">Washington</st1:place></st1:State>'s health.&quot;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-deceased was a whig in sentiment, but looked upon the new secret order with
-horror, &quot;I remember the birth of the <st1:country-region w:st="on"><st1:place
-=======
 style='mso-spacerun:yes'>                 </span>The deceased was an old United Irishman
 one of the patriot soldiers of that period in the history of Ireland which is
 equivalent to the Revolution in our country; the only difference being, the
@@ -1249,7 +1189,6 @@ health.&quot;<o:p></o:p></span></p>
 style='mso-spacerun:yes'>                 </span>The deceased was a <span class=SpellE><span
 class=GramE>whig</span></span> in sentiment, but looked upon the new secret
 order with horror, &quot;I remember the birth of the <st1:country-region w:st="on"><st1:place
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
  w:st="on">United States</st1:place></st1:country-region>,&quot; said he,
 &quot;but if this secret order is not vanquished, my bones will hardly be cold
 in the grave until it will descend to anarchy, agrarianism, confusion and
@@ -1265,62 +1204,27 @@ style='mso-spacerun:yes'>     </span>He did not survive more than three minutes
 after that.<span style='mso-spacerun:yes'>     </span>His knowledge of geography
 was very extensive.<span style='mso-spacerun:yes'>     </span>The last two years
 of his life were spent in a devotional frame of mind.<span
-<<<<<<< HEAD
-style='mso-spacerun:yes'>  </span>His Bible was the man of the counsel.<span
-style='mso-spacerun:yes'>  </span>Many a time has he been heard to pray,
-&quot;Lord, when my time comes, may I not be kept long in pain.&quot;<span
-style='mso-spacerun:yes'>  </span>His prayers were answered. <span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'>  </span>C.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>     </span>His Bible was the man of the counsel.<span
 style='mso-spacerun:yes'>     </span>Many a time has he been heard to pray,
 &quot;Lord, when my time comes, may I not be kept long in <span class=GramE>pain.</span>&quot;<span
 style='mso-spacerun:yes'>     </span>His prayers were answered.<span
 style='mso-spacerun:yes'>                                                                                                                                                                         </span>C.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Clagett, (Son) Clagett<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Clagett</span></b></span><b><span
+style='font-size:14.0pt'>, (Son) <span class=SpellE>Clagett</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 June 20, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>A Noble Son - The Fairmont
-<<<<<<< HEAD
-Virginian states that a youth, only 16 years of age, son of Mr. T. J. Clagett,
-of Fairmont, Marion Co., Virginia, lost his life, on Friday, last week, while
-attempting to save the life of his father, who was placed in a perilous
-situation by losing controll of his boat while crossing Valley river.<span
-style='mso-spacerun:yes'>  </span>The son, knowing that his father could not
-=======
 Virginian states that a youth, only 16 years of age, son of Mr. T. J. <span
 class=SpellE>Clagett</span>, of Fairmont, Marion Co., Virginia, lost his life,
 on Friday, last week, while attempting to save the life of his father, who was
 placed in a perilous situation by losing <span class=SpellE>controll</span> of
 his boat while crossing Valley <span class=GramE>river</span>.<span
 style='mso-spacerun:yes'>     </span>The son, knowing that his father could not
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 swim, and being himself an excellent swimmer, plunged into the stream, which
 was much swollen from the recent rains, for the purpose of saving his parent;
 but his father reached the shore in the boat, while his noble and affectionate
@@ -1334,19 +1238,6 @@ son sunk only to rise a corpse.<o:p></o:p></span></p>
 November 21, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Great Excitement at Doniphan,
-<<<<<<< HEAD
-K. T. --<span style='mso-spacerun:yes'>  </span>We learn from Mr. Newman, of
-Doniphan, that Samuel Collins, of that place, was killed this morning about
-sunrise, by Pat. Laughlin.<span style='mso-spacerun:yes'>  </span>As far as we
-have been able to learn, the circumstances are as follows:<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Mr.
-Laughlin recently made an exposition of the midnight organization existing
-among the Abolitionists in the Territory, called the &quot;Grand Encampment and
-Regiments of the Kansas Legion.&quot;<span style='mso-spacerun:yes'> 
-</span>Collins, it seem, was Colonel of one of the Regiments in this order, and
-=======
 K. T. <span class=GramE>--<span style='mso-spacerun:yes'>     </span>We</span> learn
 from Mr. Newman, of Doniphan, that Samuel Collins, of that place, was killed
 this morning about sunrise, by Pat. <span class=GramE>Laughlin.</span><span
@@ -1359,25 +1250,9 @@ the midnight organization existing among the Abolitionists in the Territory,
 called the &quot;Grand Encampment and Regiments of the Kansas
 Legion.&quot;<span style='mso-spacerun:yes'>     </span>Collins, it <span
 class=GramE>seem</span>, was Colonel of one of the Regiments in this order, and
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 determined to force Mr. Laughlin to retract or kill him.<span
 style='mso-spacerun:yes'>     </span>In accordance with his determination, he and
 TWELVE brother Abolitionists proceeded this morning to seek out Mr. Laughlin,
-<<<<<<< HEAD
-and demanded an unqualified retraction of his recent confession, and upon Mr.
-L's refusing to make any concession whatever, Collins immediately snapped his
-gun at him, (Laughlin) and afterwards fired at him, but fortunately the weapon
-was turned aside by a spectator.<span style='mso-spacerun:yes'>  </span>Mr.
-Laughlin then drew a revolver and fired on his opponent, killing him instantly.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>We
-regret to learn that Mr. L. was dangerously hurt in the conflict by a knife
-wound in the side.<span style='mso-spacerun:yes'>  </span>We are also informed
-that his friend, Mr. Lynch, a member of the proslavery party, was wounded in
-the side by the discharge of a gun.<o:p></o:p></span></p>
-=======
 and demanded an unqualified retraction of his recent <span class=GramE>confession,</span>
 and upon Mr. L's refusing to make any concession whatever, Collins immediately
 snapped his gun at him, (Laughlin) and afterwards fired at him, but fortunately
@@ -1391,24 +1266,18 @@ dangerously hurt in the conflict by a knife wound in the side.<span
 style='mso-spacerun:yes'>     </span>We are also informed that his friend, Mr.
 Lynch, a member of the proslavery party, was wounded in the side by the
 discharge of a gun.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Connor, Rebecca Connor<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>April 4, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 4,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - In this place, on the
 29th ult., of consumption, Rebecca, wife of Mr. Daniel O'Connor, and daughter
-of the late James Carrothers, aged 52 years.<o:p></o:p></span></p>
+of the late James <span class=SpellE>Carrothers</span>, aged 52 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>&quot;Blessed are the dead
 who die in the Lord.&quot;<o:p></o:p></span></p>
@@ -1418,14 +1287,6 @@ who die in the Lord.&quot;<o:p></o:p></span></p>
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Coulson, Mrs. _____
 Coulson</span></b><span style='font-size:14.0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>March 28, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'>Died – In this place, at the
-residence of her son-in-law, Judge Davenport, on the morning of the 23<sup>rd</sup>
-inst., Mrs. _____ Coulson, in the 90<sup>th</sup> year of her age.<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 28,
 1855<o:p></o:p></span></p>
@@ -1434,7 +1295,6 @@ class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 28,
 this place, at the residence of her son-in-law, Judge Davenport, on the morning
 of the 23<sup>rd</sup> inst., Mrs. _____ Coulson, in the 90<sup>th</sup> year
 of her age.</span></span><span style='font-size:14.0pt'><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1444,34 +1304,6 @@ Davenport<o:p></o:p></span></b></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 August 15, 1855<o:p></o:p></span></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Death of Judge Davenport --<span
-style='mso-spacerun:yes'>  </span>We have received intelligence of the death of
-Hon. John Davenport, at his residence, Woodsfield, <st1:City w:st="on">Monroe</st1:City>
-county, <st1:State w:st="on"><st1:place w:st="on">Ohio</st1:place></st1:State>,
-on Wednesday last.<span style='mso-spacerun:yes'>  </span>Judge Davenport had
-attained a good old age, and few men have rendered themselves more useful in
-life than he.<span style='mso-spacerun:yes'>  </span>He was among the earlier
-settlers in Barnesville, and no one from the period of his location in <st1:State
-w:st="on"><st1:place w:st="on">Ohio</st1:place></st1:State>, down to the time
-of his death, enjoyed to a greater degree the esteem of his fellow-citizens.<span
-style='mso-spacerun:yes'>  </span>He was elected to the House of Assembly and
-the Senate of Ohio several times, in districts of opposing politics, and such
-was the confidence reposed in him by the ppeople, that they returned him to
-Congress by a large vote.<span style='mso-spacerun:yes'>  </span>He was also
-the second time appointed Judge of the Monroe Judicial District, by the
-Legislature of Ohio, in which capacity he exhibited much ability.<span
-style='mso-spacerun:yes'>  </span>As a merchant he was extensively and
-favorably known through out <st1:State w:st="on">Ohio</st1:State>, and in <st1:City
-w:st="on">Baltimore</st1:City> and <st1:City w:st="on"><st1:place w:st="on">Philadelphia</st1:place></st1:City>
-as a man of integrity and truthfulness.<span style='mso-spacerun:yes'> 
-</span>Judge D. was a very benevolent and public - spirited citizen,
-identifying himself with everything, which promised good to individuals or the
-State.<span style='mso-spacerun:yes'>  </span>As a Christian and member of the
-Methodist Episcopal Church, he was exemplary in his profession.<span
-style='mso-spacerun:yes'>  </span>A large circle of warm friends, among the
-merchants of <st1:City w:st="on"><st1:place w:st="on">Baltimore</st1:place></st1:City>,
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Death of Judge Davenport <span
 class=GramE>--<span style='mso-spacerun:yes'>     </span>We</span> have received
 intelligence of the death of Hon. John Davenport, at his residence, Woodsfield,
@@ -1500,7 +1332,6 @@ to individuals or the State.<span style='mso-spacerun:yes'>     </span>As a
 Christian and member of the Methodist Episcopal Church, he was exemplary in his
 profession.<span style='mso-spacerun:yes'>     </span>A large circle of warm
 friends, among the merchants of <st1:City w:st="on"><st1:place w:st="on">Baltimore</st1:place></st1:City>,
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 will regret to hear of his death. -- <st1:City w:st="on"><st1:place w:st="on"><i>Baltimore</i></st1:place></st1:City><i>
 Patriot.<o:p></o:p></i></span></p>
 
@@ -1516,31 +1347,6 @@ July 25, 1855<o:p></o:p></span></p>
 19th inst., Hon. John Davenport, aged 67 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Mr.
-Davenport was a well known and highly respected citizen.<span
-style='mso-spacerun:yes'>  </span>He represented <st1:City w:st="on"><st1:place
- w:st="on">Belmont</st1:place></st1:City> county in the State Legislature, and
-served a term in Congress from this district.<span style='mso-spacerun:yes'> 
-</span>The following are the preamble and Resolutions adopted by the Masonic
-Lodge of which he was a member:<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>At a
-called meeting of Monroe Lodge, No. 180, of Free and Accepted Masons, held in
-their Lodge room on Wednesday the 13th day of July 1855, the following Preamble
-and Resolutions were unanimously adopted:<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> 
-</span>Whereas, it has pleased the Supreme Architect of the Universe, in the
-exercise of His divine wisdom, right and power, to summon to the Celestial
-Lodge above, our worthy and beloved brother John Davenport, who has left a
-large number of friends and relatives to mourn his loss:<span
-style='mso-spacerun:yes'>  </span>We confidently believe that he was prepared
-to meet in peace his Divine Master in Heaven, and be invested with the
-mysteries of the eternal world.<span style='mso-spacerun:yes'>  </span>As a
-=======
 style='mso-spacerun:yes'>         </span>Mr. Davenport was a <span class=SpellE>well
 known</span> and highly respected citizen.<span style='mso-spacerun:yes'>    
 </span>He represented <st1:City w:st="on"><st1:place w:st="on">Belmont</st1:place></st1:City>
@@ -1563,42 +1369,11 @@ John Davenport, who has left a large number of friends and relatives to mourn
 his loss:<span style='mso-spacerun:yes'>     </span>We confidently believe that he
 was prepared to meet in peace his Divine Master in Heaven, and be invested with
 the mysteries of the eternal world.<span style='mso-spacerun:yes'>     </span>As a
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 benevolent man, a peaceable citizen, an affectionate husband and father, a
 sincere Christian, and a worthy Mason, his memory will long be cherished in
 grateful remembrance.<span style='mso-spacerun:yes'>     </span>Therefore,<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span>Resolved, That while we bow submissively to
-this afflicting dispensation of Divine Providence, we sincerely mourn the death
-of our friend and brother, and most feeling sympathise with the bereaved family
-whose loss is his eternal gain.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> 
-</span>Resolved, That in appreciation of the loss which the order of Masonry
-has sustained, and this Lodge in Particular, in the death of our brother, the
-jewels of this Lodge be draped in mourning, and that the members wear the usual
-badge of mourning for the space of thirty days.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> 
-</span>Resolved, That a copy of the foregoing Preamble and Resolutions be
-forwarded to the widow of the deceased, and that a copy be furnished the Spirit
-of Democracy and Masonic Review, for publication. <span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'>  </span>Secretary.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>         </span>Resolved, <span class=GramE>That</span>
 while we bow submissively to this afflicting dispensation of Divine Providence,
 we sincerely mourn the death of our friend and brother, and most feeling <span
@@ -1618,30 +1393,12 @@ copy of the foregoing Preamble and Resolutions be forwarded to the widow of the
 deceased, and that a copy be furnished the Spirit of Democracy and Masonic
 Review, for publication.<span style='mso-spacerun:yes'>                                                                            
 </span><span class=GramE>Secretary.</span><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Davis, Marmaduke S. Davis</span></b><span
-style='font-size:14.0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+<p class=MsoNormal><b><span style='font-size:14.0pt'>Davis, <span class=SpellE>Marmaduke</span>
+S. Davis</span></b><span style='font-size:14.0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>March 28, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'>Death of A Revolutionary
-Soldier – Marmaduke S. Davis departed this life at his residence, in this
-place, on Tuesday evening last, aged 96 years and 2 ds.<span
-style='mso-spacerun:yes'>  </span>In the war of 1790, he served under General
-St. Clair and Wayne.<span style='mso-spacerun:yes'>  </span>He witnessed the
-defeat of St. Clair in Oct. 1792, and he also witnessed the taking of
-Cornwallis, at <st1:place w:st="on">Yorktown</st1:place>.<span
-style='mso-spacerun:yes'>  </span>The deceased was a pioneer in the early
-settlement of <st1:City w:st="on"><st1:place w:st="on">Belmont</st1:place></st1:City>
-county, having resided for about 48 years, and was esteemed as the possessor of
-all those qualities which make the true and upright citizen. <i>– St.
-Clairsville Gazette</i><o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 28,
 1855<o:p></o:p></span></p>
@@ -1658,7 +1415,6 @@ settlement of <st1:City w:st="on"><st1:place w:st="on">Belmont</st1:place></st1:
 county, having resided for about 48 years, and was esteemed as the possessor of
 all those qualities which make the true and upright citizen. <i>      St. <span
 class=SpellE>Clairsville</span> Gazette</i><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1668,17 +1424,6 @@ class=SpellE>Clairsville</span> Gazette</i><o:p></o:p></span></p>
 September 12, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Fatal Accident - We learn
-<<<<<<< HEAD
-that Henry Dennis, a citizen of Green township, in this county, was killed on
-the 1st inst., by the upsetting of a wagon.<span style='mso-spacerun:yes'> 
-</span>Mr. Dennis was on his way home from Sunfish after night, and supposing
-the horses to be getting out of the road, he drew them in the opposite
-direction, which turned the wagon over.<span style='mso-spacerun:yes'> 
-</span>It fell upon him, striking him in the back part of the head.<span
-style='mso-spacerun:yes'>  </span>Although his skull was broken, we are
-informed that he walked some distance home.<span style='mso-spacerun:yes'> 
-</span>He died the following day.<o:p></o:p></span></p>
-=======
 that Henry Dennis, a citizen of Green <span class=GramE>township</span>, in
 this county, was killed on the 1st inst., by the upsetting of a wagon.<span
 style='mso-spacerun:yes'>     </span>Mr. Dennis was on his way home from Sunfish
@@ -1688,20 +1433,14 @@ style='mso-spacerun:yes'>     </span>It fell upon him, striking him in the back
 part of the head.<span style='mso-spacerun:yes'>     </span>Although his skull was
 broken, we are informed that he walked some distance home.<span
 style='mso-spacerun:yes'>     </span>He died the following day.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Dillon, Mrs. Jane Dillon<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 30, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 30,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 25th inst.,
 Mrs. Jane Dillon, wife of Peter Dillon, aged ___ years.<o:p></o:p></span></p>
@@ -1714,9 +1453,9 @@ Dougherty<o:p></o:p></span></b></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 September 26, 1855<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - In Perry township, on
-Tuesday, the 18th instant, of a protracted illness, Mr. Patrick Dougherty, aged
-72 years.<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-size:14.0pt'>Died - In Perry <span
+class=GramE>township</span>, on Tuesday, the 18th instant, of a protracted
+illness, Mr. Patrick Dougherty, aged 72 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1727,7 +1466,8 @@ December 19, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - At the residence of
 her mother, in <st1:City w:st="on"><st1:place w:st="on">Salem</st1:place></st1:City>
-township, this county, Sarah A. Duff, in the ___year of her age.<o:p></o:p></span></p>
+<span class=GramE>township</span>, this county, Sarah A. Duff, in the ___year
+of her age.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1737,32 +1477,6 @@ township, this county, Sarah A. Duff, in the ___year of her age.<o:p></o:p></spa
 November 7, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>A
-distressing accident occurred on the Jacktown plankroad on Sunday last.<span
-style='mso-spacerun:yes'>  </span>The Newark Times gives the following account:<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>A
-visitor had left his horse and buggy by the side of the house, and from some
-pleasant impulse Miss Julia Ellis with two other girls and a gentleman got into
-it, intending to have a short drive.<span style='mso-spacerun:yes'> 
-</span>They did not go far before they stopped in a narrow part of the road,
-with precipitous sides twelve or fourteen feet in depth, where from some
-unknown cause the horse began backing, and plunged the whole over among the
-logs and stones below.<span style='mso-spacerun:yes'>  </span>The horse fell
-nearly squarely back upon the buggy and cam down upon Miss Ellis, who had
-leaped out but who had fallen between two logs.<span style='mso-spacerun:yes'> 
-</span>She was horribly crushed in body -- one leg was broken in three places
---<span style='mso-spacerun:yes'>  </span>and the horse lay upon her for ten
-minutes before she was released.<span style='mso-spacerun:yes'>  </span>She
-lingered until Wednesday night, when death relieved her from her sufferings.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>We
-regret to learn that Miss Ellis, whose death is recorded above, was a niece of
-Mr. John Hayden, of this township, and was a very estimable young lady.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>         </span>A distressing accident occurred on the <span
 class=SpellE>Jacktown</span> <span class=SpellE>plankroad</span> on Sunday
 last.<span style='mso-spacerun:yes'>     </span>The Newark Times gives the
@@ -1789,7 +1503,6 @@ death relieved her from her sufferings.<o:p></o:p></span></p>
 style='mso-spacerun:yes'>         </span>We regret to learn that Miss Ellis, whose
 death is recorded above, was a niece of Mr. John Hayden, of this township, and
 was a very estimable young lady.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1802,17 +1515,10 @@ June 13, 1855<o:p></o:p></span></p>
 Short-line Railroad Tunnel - Five Men Killed<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>One of
-the most terrible catastrophes that has occurred in this vicinity for a long
-period took place at three o'clock yesterday morning at the Walnut Hill Tunnel.<span
-style='mso-spacerun:yes'>  </span>It seems that there is a portion of the
-=======
 style='mso-spacerun:yes'>         </span>One of the most terrible catastrophes that <span
 class=GramE>has</span> occurred in this vicinity for a long period took place
 at three o'clock yesterday morning at the Walnut Hill Tunnel.<span
 style='mso-spacerun:yes'>     </span>It seems that there is a portion of the
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 tunnel which had been excavated eighteen months since, but which had not yet
 been walled and arched.<span style='mso-spacerun:yes'>     </span>Within this
 space, ten laborers, together with their foreman, an active and energetic young
@@ -1820,30 +1526,6 @@ man, named James Pierce, were engaged in excavating.<span
 style='mso-spacerun:yes'>     </span>Mr. Gest, the head engineer, had, previous to
 their commencing work, sought to impress upon them the necessity of using the
 greatest care in removing the timbers used as props to support the roof.<span
-<<<<<<< HEAD
-style='mso-spacerun:yes'>  </span>This precaution probably was not attended to
-as carefully as it should have been, at all events they had been engaged but a
-short time when a large mass of the roof fell, burying six of the unfortunate
-men in the ruins, the remaining five, to their credit be it spoken, did not
-abandon their ill-fated companions, but instantly set to work in an attempt to
-rescue them from their living tomb.<span style='mso-spacerun:yes'>  </span>One
-of the number, part of whose body was visible, was saved, but the remaining
-five were not excavated only as lifeless and mutilated corpses.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>There
-are charges of neglect in not having taken sufficient precaution to guard
-against the contingency of such an accident, but as these are mere rumors, we
-forbear commenting upon them, as an investigation is being had before Justice
-Copeland, in the course of which all the facts will be brought before the
-public.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Since
-writing the above, we learn that probably before this reaches the eyes of our
-readers, Coleman will have breathed his last, which will count six lives
-sacrificed by this awful calamity,- Cin. Enq.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>     </span>This precaution probably was not attended to as
 carefully as it should have been, at all events they had been engaged but a
 short time when a large mass of the roof fell, burying six of the unfortunate
@@ -1867,40 +1549,25 @@ probably before this reaches the eyes of our readers, Coleman will have
 breathed his last, which will count six lives sacrificed by this awful
 calamity,- <span class=SpellE>Cin</span>. <span class=SpellE><span class=GramE>Enq</span></span><span
 class=GramE>.</span><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Fleming, Rebecca A.
 Fleming<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 23, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 23,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 14th inst.,
 Rebecca A., daughter of John and Margaret Fleming, of <st1:City w:st="on"><st1:place
- w:st="on">Bethel</st1:place></st1:City> township, in this county, in the 26th
-year of her age.<o:p></o:p></span></p>
+ w:st="on">Bethel</st1:place></st1:City> <span class=GramE>township</span>, in
+this county, in the 26th year of her age.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Ford, ex-Governor Ford<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 23, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'>Death of ex-Governor Ford -
-Ex-Governor Seabury [?] Ford died at his residence in Geauga county on the 3d
-last.<span style='mso-spacerun:yes'>  </span>He was struck with paralysis some
-three years since which finally produced his death.<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 23,
 1855<o:p></o:p></span></p>
@@ -1910,7 +1577,6 @@ ex-Governor Ford - Ex-Governor Seabury [?]</span></span><span style='font-size:
 14.0pt'> Ford died at his residence in Geauga <span class=GramE>county</span>
 on the 3d last.<span style='mso-spacerun:yes'>     </span>He was struck with
 paralysis some three years since which finally produced his death.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1919,26 +1585,11 @@ paralysis some three years since which finally produced his death.<o:p></o:p></s
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 August 8, 1855<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Sad Accident - Loss of the
-Steamboat Kentucky Home.<o:p></o:p></span></p>
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt'>Sad
+Accident - Loss of the Steamboat Kentucky Home.</span></span><span
+style='font-size:14.0pt'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>A
-telegraphic dispatch which we publish this morning, announces the sinking on
-Monday night, of the new steamer Kentucky Home and the loss of four of her
-crew.<span style='mso-spacerun:yes'>  </span>The steamer Telegraph No. 3 ran
-into her, and she sank immediately in twenty feet of water.<span
-style='mso-spacerun:yes'>  </span>The accident, we learn from a private source,
-occurred at Sugar Creek, 60 miles below <st1:City w:st="on"><st1:place w:st="on">Cincinnati</st1:place></st1:City>.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-Kentucky Home was on her second trip from <st1:City w:st="on"><st1:place w:st="on">Pittsburgh</st1:place></st1:City>,
-and was owned, we believe, in that city.<span style='mso-spacerun:yes'> 
-=======
 style='mso-spacerun:yes'>                 </span>A telegraphic dispatch which we publish
 this morning, announces the sinking on Monday night, of the new steamer
 Kentucky Home and the loss of four of her crew.<span style='mso-spacerun:yes'>    
@@ -1951,7 +1602,6 @@ w:st="on"><st1:place w:st="on">Cincinnati</st1:place></st1:City>.<o:p></o:p></sp
 style='mso-spacerun:yes'>                 </span>The Kentucky Home was on her second trip
 from <st1:City w:st="on"><st1:place w:st="on">Pittsburgh</st1:place></st1:City>,
 and was owned, we believe, in that city.<span style='mso-spacerun:yes'>    
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 </span>She had some freight on board from <st1:City w:st="on"><st1:place w:st="on">Wheeling</st1:place></st1:City>.
 -- Intelligencer.<o:p></o:p></span></p>
 
@@ -1960,14 +1610,9 @@ and was owned, we believe, in that city.<span style='mso-spacerun:yes'>
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Grant, James Grant</span></b><span
 style='font-size:14.0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>March 28, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 28,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died       At his residence in
 this township, James Grant, aged fifty three years.<o:p></o:p></span></p>
@@ -1980,23 +1625,20 @@ this township, James Grant, aged fifty three years.<o:p></o:p></span></p>
 November 28, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 22d inst., in
-this township, Mr. Lewis Griffith, aged about 40 years.<o:p></o:p></span></p>
+this township, Mr. Lewis <span class=GramE>Griffith,</span> aged about 40
+years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Harter, Susan Harter<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>April 11, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 11,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 1st inst., at
-Baresville, of consumption, Susan Harter, aged about 27 years.<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 1st inst., at <span
+class=SpellE>Baresville</span>, of consumption, Susan <span class=GramE>Harter,</span>
+aged about 27 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2010,15 +1652,6 @@ July 25, 1855<o:p></o:p></span></p>
 the storm on the 20th inst., in the town of <st1:City w:st="on"><st1:place
  w:st="on">Sardis</st1:place></st1:City>, in this county, two children,
 daughters of John Henderson, were struck by lightning.<span
-<<<<<<< HEAD
-style='mso-spacerun:yes'>  </span>One of them, aged about 11 years, was
-instantly killed, and the other dangerously, but it is hoped not fatally hurt.<span
-style='mso-spacerun:yes'>  </span>The lightning first struck the gable end of
-an adjoining house, then leaped across to the house of <st1:City w:st="on"><st1:place
- w:st="on">Henderson</st1:place></st1:City>, ran down the door, and struck the
-children.<span style='mso-spacerun:yes'>  </span>A number of other persons were
-knocked down by the shock.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>     </span>One of them, aged about 11 years, was
 instantly killed, and the other dangerously, but it is hoped not fatally
 hurt.<span style='mso-spacerun:yes'>     </span>The lightning first struck the
@@ -2026,21 +1659,11 @@ gable end of an adjoining house, then leaped across to the house of <st1:City
 w:st="on"><st1:place w:st="on">Henderson</st1:place></st1:City>, ran down the
 door, and struck the children.<span style='mso-spacerun:yes'>     </span>A number
 of other persons were knocked down by the shock.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Hill, James Hill<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>April 4, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - At his residence in <st1:place
-w:st="on"><st1:City w:st="on">Sistersville</st1:City>, <st1:State w:st="on">Va.</st1:State></st1:place>,
-on the<span style='mso-spacerun:yes'>  </span>___day of March, James Hill, aged
-58 years.<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 4,
 1855<o:p></o:p></span></p>
@@ -2049,7 +1672,6 @@ class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 4,
 w:st="on"><st1:City w:st="on">Sistersville</st1:City>, <st1:State w:st="on">Va.</st1:State></st1:place>,
 on <span class=GramE>the<span style='mso-spacerun:yes'>     </span>_</span>__day
 of March, James Hill, aged 58 years.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2063,45 +1685,48 @@ June 13, 1855<o:p></o:p></span></p>
 aged 25 years, 1 month and 11 days.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>We
-deeply sympathize with our friend in his sad bereavement.<span
-style='mso-spacerun:yes'>  </span>He has lost a beloved companion, the mother
-of two helpless children.<span style='mso-spacerun:yes'>  </span>Early, indeed,
-have the clouds of affliction darkened his day of life.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>         </span>We deeply sympathize with our friend in his
 sad bereavement.<span style='mso-spacerun:yes'>     </span>He has lost a beloved
 companion, the mother of two helpless children.<span style='mso-spacerun:yes'>    
 </span>Early, indeed, have the clouds of affliction darkened his day of life.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><a name=GottliebKestner><b><span style='font-size:14.0pt;
-mso-bidi-font-size:12.0pt'>Kestner, Gottlieb Kestner</span></b></a><span
+<p class=MsoNormal><a name=GottliebKestner></a><span class=SpellE><span
+style='mso-bookmark:GottliebKestner'><b><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>Kestner</span></b></span></span><span
+style='mso-bookmark:GottliebKestner'><b><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>, Gottlieb <span class=SpellE>Kestner</span></span></b></span><span
 style='mso-bookmark:GottliebKestner'></span><span style='font-size:14.0pt;
 mso-bidi-font-size:12.0pt'><br>
-Gottlieb Kestner died May 17, 1855. He was born October 19, 1853, the son of
-Jacob and Barbara Pfeiffer Kestner.<o:p></o:p></span></p>
+Gottlieb <span class=SpellE>Kestner</span> died May 17, 1855. He was born
+October 19, 1853, the son of Jacob and Barbara Pfeiffer <span class=SpellE>Kestner</span>.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><a name=JohannesKestner><b><span style='font-size:14.0pt;
-mso-bidi-font-size:12.0pt'>Kestner, Johannes Kestner</span></b></a><span
+<p class=MsoNormal><a name=JohannesKestner></a><span class=SpellE><span
+style='mso-bookmark:JohannesKestner'><b><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>Kestner</span></b></span></span><span
+style='mso-bookmark:JohannesKestner'><b><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>, Johannes <span class=SpellE>Kestner</span></span></b></span><span
 style='mso-bookmark:JohannesKestner'></span><span style='font-size:14.0pt;
 mso-bidi-font-size:12.0pt'><br>
-Johannes Kestner died May 4, 1855. He was born February 10, 1850, the son of
-Jacob and barbara Pfeiffer Kestner.<o:p></o:p></span></p>
+Johannes <span class=SpellE>Kestner</span> died May 4, 1855. He was born
+February 10, 1850, the son of Jacob and <span class=SpellE><span class=GramE>barbara</span></span>
+Pfeiffer <span class=SpellE>Kestner</span>.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><a name=KatharinaKestner><b><span style='font-size:14.0pt;
-mso-bidi-font-size:12.0pt'>Kestner, Katharina Kestner</span></b></a><span
+<p class=MsoNormal><a name=KatharinaKestner></a><span class=SpellE><span
+style='mso-bookmark:KatharinaKestner'><b><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>Kestner</span></b></span></span><span
+style='mso-bookmark:KatharinaKestner'><b><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>, Katharina <span class=SpellE>Kestner</span></span></b></span><span
 style='mso-bookmark:KatharinaKestner'></span><span style='font-size:14.0pt;
 mso-bidi-font-size:12.0pt'><br>
-Katharina Kestner died May 1, 1855. She was born November 19, 1851, the
-daughter of Jacob and Barbara Pfeiffer Kestner.<o:p></o:p></span></p>
+Katharina <span class=SpellE>Kestner</span> died May 1, 1855. She was born
+November 19, 1851, the daughter of Jacob and Barbara Pfeiffer <span
+class=SpellE>Kestner</span>.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2109,26 +1734,14 @@ daughter of Jacob and Barbara Pfeiffer Kestner.<o:p></o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Hubbard, Miss Hubbard<o:p></o:p></span></b></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Hissom, Miss Hissom<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Hissom</span></b></span><b><span
+style='font-size:14.0pt'>, Miss <span class=SpellE>Hissom</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 December 12, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Sad Accident -- We learn from
 the Wheeling <i>Argus</i>, that on Tuesday evening, the 4th inst., at about
-<<<<<<< HEAD
-dusk, three young ladies, Misses Knight, Hubbard and Hissom, were drowned in
-the Ohio, at Sistersville, by the swamping of a skiff in the swell of the
-steamer Hornet.<span style='mso-spacerun:yes'>  </span>The ladies were in the
-skiff, by themselves, crossing from the <st1:State w:st="on"><st1:place w:st="on">Ohio</st1:place></st1:State>
-side, where they resided, for the purpose of attending church in Sistersville,
-and becoming frightened, so mismanaged the skiff that it was completely filled
-by one of the heavy waves.<span style='mso-spacerun:yes'>  </span>They cried
-for succor and clung to the boat, but before aid from Sistersville could reach
-them, all were senseless.<span style='mso-spacerun:yes'>  </span>When the
-Bayard passed, last evening, hope was entertained that one of them might be
-resuscitated.<o:p></o:p></span></p>
-=======
 dusk, three young ladies, Misses Knight, Hubbard and <span class=SpellE>Hissom</span>,
 were drowned in the Ohio, at Sistersville, by the swamping of a skiff in the
 swell of the steamer Hornet.<span style='mso-spacerun:yes'>     </span>The ladies
@@ -2140,7 +1753,6 @@ waves.<span style='mso-spacerun:yes'>     </span>They cried for succor and clung
 to the boat, but before aid from Sistersville could reach them, all were
 senseless.<span style='mso-spacerun:yes'>     </span>When the Bayard passed, last
 evening, hope was entertained that one of them might be resuscitated.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2153,16 +1765,6 @@ August 29, 1855<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>Death of Abbott Lawrence --
 Hon. Abbott Lawrence died at his residence in <st1:City w:st="on"><st1:place
  w:st="on">Boston</st1:place></st1:City>, on the 18th inst.<span
-<<<<<<< HEAD
-style='mso-spacerun:yes'>  </span>He is an example of a self made man.<span
-style='mso-spacerun:yes'>  </span>From a poor neglected boy, he became one of
-the most wealthy, intelligent and honorable men in the country; being twice
-elected to Congress, once Minister to England, and lacked but one vote of being
-the Whig candidate for Vice President at the convention which nominated Mr.
-Fillmore.<span style='mso-spacerun:yes'>  </span>He was worth at the time of
-his decease about $3,000,000.<span style='mso-spacerun:yes'>  </span>So much
-for energy and self-reliance.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>     </span>He is an example of a <span class=SpellE>self
 made</span> man.<span style='mso-spacerun:yes'>     </span>From a poor neglected
 boy, he became one of the most wealthy, intelligent and honorable men in the
@@ -2171,41 +1773,30 @@ but one vote of being the Whig candidate for Vice President at the convention
 which nominated Mr. Fillmore.<span style='mso-spacerun:yes'>     </span>He was
 worth at the time of his decease about $3,000,000.<span
 style='mso-spacerun:yes'>     </span><span class=GramE>So much for energy and self-reliance.</span><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Mantel, William Mantel<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 23, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 23,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 18th inst., at
-the residence of Charles Windland, in this township, William Mantel, aged about
-60 years.<o:p></o:p></span></p>
+the residence of Charles <span class=SpellE>Windland</span>, in this township,
+William <span class=GramE>Mantel,</span> aged about 60 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Martin, Rebecca Martin<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy <span
-style='mso-spacerun:yes'> </span>April 11, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 11,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - In Sardis, on the
-morning of the 3rd inst., Rebecca, wife of Wilson Martin, Esq., in the 42nd
-year of her age.<o:p></o:p></span></p>
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt'>Died - In
+Sardis, on the morning of the 3rd inst., Rebecca, wife of Wilson Martin, Esq.,
+in the 42nd year of her age.</span></span><span style='font-size:14.0pt'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2229,25 +1820,6 @@ Morris<o:p></o:p></span></b></p>
 November 7, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>We are
-under the painful necessity of recording the death of the Hon. Benedict Morris,
-who died at his residence, about a half a mile north of this place, this
-(Wednesday) morning about six o'clock.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Judge
-Morris was an old and highly respected citizen of this county -- has, with
-honor to himself and benefit to the community, filled a variety of official
-stations, and, at the time of his death he held the office of <st1:place w:st="on"><st1:PlaceType
- w:st="on">County</st1:PlaceType> <st1:PlaceName w:st="on">Commissioner</st1:PlaceName></st1:place>.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-Judge lived to a good old age, and died in the bosom of a kind and affectionate
-family, and in the midst of a confiding community of friends, who will long
-feel and mourn his loss. - <i>Corington (In) Democrat.</i><o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>         </span>We are under the painful necessity of
 recording the death of the Hon. Benedict Morris, who died at his residence,
 about a half a mile north of this place, this (Wednesday) morning about six
@@ -2265,7 +1837,6 @@ style='mso-spacerun:yes'>         </span>The Judge lived to a good old age, and 
 in the bosom of a kind and affectionate family, and in the midst of a confiding
 community of friends, who will long feel and mourn his loss. - <span
 class=SpellE><i>Corington</i></span><i> (In) Democrat.</i><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2275,24 +1846,14 @@ class=SpellE><i>Corington</i></span><i> (In) Democrat.</i><o:p></o:p></span></p>
 June 13, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - In <st1:City w:st="on">Wayne</st1:City>
-township, in this county, on the 7th inst., Martha, wife of Mr. Thomas Morris,
-formerly of Green Co., <st1:State w:st="on"><st1:place w:st="on">Pa.</st1:place></st1:State>,
-aged about 62 years.<o:p></o:p></span></p>
+<span class=GramE>township</span>, in this county, on the 7th inst., Martha,
+wife of Mr. Thomas Morris, formerly of Green Co., <st1:State w:st="on"><st1:place
+ w:st="on">Pa.</st1:place></st1:State>, aged about 62 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Mott, Dr. Henry H. Mott<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 30, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>We
-learn that Dr. Henry H. Mott died at his residence in Barnesville, <st1:place
-w:st="on"><st1:City w:st="on">Belmont County</st1:City>, <st1:State w:st="on">Ohio</st1:State></st1:place>,
-on the night of the 20th inst., of apoplexy.<span style='mso-spacerun:yes'> 
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 30,
 1855<o:p></o:p></span></p>
@@ -2302,7 +1863,6 @@ style='mso-spacerun:yes'>         </span>We learn that Dr. Henry H. Mott died at
 residence in Barnesville, <st1:place w:st="on"><st1:City w:st="on">Belmont
   County</st1:City>, <st1:State w:st="on">Ohio</st1:State></st1:place>, on the
 night of the 20th inst., of apoplexy.<span style='mso-spacerun:yes'>    
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 </span>Mr. Mott was formerly a resident of this place, and was well known in
 many of our citizens.<o:p></o:p></span></p>
 
@@ -2315,16 +1875,6 @@ October 24, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Another Death in the Tunnel
 -- A few days since we recorded the death of one of the laborers in the
-<<<<<<< HEAD
-Cambridge Tunnel, by the falling of a massive rock and earth from the roof.<span
-style='mso-spacerun:yes'>  </span>And to-day it is our painful duty to record
-the death of another hand, by the name of Daniel Murphy, who came to his end on
-Wednesday inst., by the earth at the side of the Tunnel caving in on him while
-in a sitting position asleep.<span style='mso-spacerun:yes'>  </span>He had
-previously been warned of the danger he was in by other hands, but he heeded
-them not.<span style='mso-spacerun:yes'>  </span>-- <st1:place w:st="on"><i>Guernsey</i></st1:place><i>
-Jeffersonian.</i><o:p></o:p></span></p>
-=======
 Cambridge Tunnel, by the falling of a massive rock and earth from the
 roof.<span style='mso-spacerun:yes'>     </span>And to-day it is our painful duty
 to record the death of another hand, by the name of Daniel Murphy, who came to
@@ -2333,47 +1883,26 @@ him while in a sitting position asleep.<span style='mso-spacerun:yes'>
 </span>He had previously been warned of the danger he was in by other hands,
 but he heeded them not.<span style='mso-spacerun:yes'>     </span>-- <st1:place
 w:st="on"><i>Guernsey</i></st1:place><i> Jeffersonian.</i><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Okey, Asher Okey<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Okey</span></b></span><b><span
+style='font-size:14.0pt'>, Asher <span class=SpellE>Okey</span><o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>April 4, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 4,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - At the residence of
-his father, James Okey, Esq., in Perry township on the 28th ult., Asher Okey,
+his father, James <span class=SpellE>Okey</span>, Esq., in Perry <span
+class=GramE>township</span> on the 28th ult., Asher <span class=SpellE>Okey</span>,
 aged 23 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Parriott, Col. John
-Parriott<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Parriott</span></b></span><b><span
+style='font-size:14.0pt'>, Col. John <span class=SpellE>Parriott</span><o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 2, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Col.
-John Parriott, of Marshall Co., <st1:State w:st="on"><st1:place w:st="on">Va.</st1:place></st1:State>,
-died yesterday at 11 1/2 o'clock, at the Sprigg House in this city, in the 64th
-year of his age.<span style='mso-spacerun:yes'>  </span>On Monday, of last
-week, the deceased was in the enjoyment of excellent health.<span
-style='mso-spacerun:yes'>  </span>On Tuesday he entered the cars at
-Moundsville, for the purpose of visiting our city; while in the cars he was
-taken with a severe chill, and when he arrived at the Sprigg House he felt so
-indisposed as to retire immediately to his room, from which it was the will of
-an over-ruling Providence, he should never again return alive. <i>Intelligencer,
-25th.<o:p></o:p></i></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 2, 1855<o:p></o:p></span></p>
 
@@ -2389,7 +1918,6 @@ taken with a severe chill, and when he arrived at the <span class=SpellE>Sprigg<
 House he felt so indisposed as to retire immediately to his room, from which it
 was the will of an over-ruling Providence, he should never again return alive. <span
 class=GramE><i>Intelligencer, 25th.</i></span><i><o:p></o:p></i></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><i><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></i></p>
 
@@ -2407,83 +1935,6 @@ style='font-size:14.0pt'><o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 November 28, 1855<o:p></o:p></span></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Dreadful Calamity -- A fire
-occured at Alexandria, Virginia, on Saturday evening, which proved very
-disastrous, not only in the destruction of property but of human life.<span
-style='mso-spacerun:yes'>  </span>Between 12 and 1 A.M., flames were seen
-issuing from the large brick warehouse on <st1:Street w:st="on"><st1:address
- w:st="on">King street</st1:address></st1:Street>, occupied by J. T. Dowell, as
-a <st1:country-region w:st="on"><st1:place w:st="on">China</st1:place></st1:country-region>
-store.<span style='mso-spacerun:yes'>  </span>It was set on fire, and such were
-the preparations made, with cotton saturated with camphene, trains of powder,
-&amp;c., that it was evident the incemliary [sic] intended to make sure and
-speedy his work of destruction.<span style='mso-spacerun:yes'>  </span>The
-entire building and its contents were destroyed; but the buildings on either
-side, almost miraculously were saved.<span style='mso-spacerun:yes'> 
-</span>The most melancholy part of the story remains untold. -- We will let the
-Alexandria Gazette, of this morning, tell it in its own words:<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>About
-4 o'clock, on Saturday morning, while the fire was raging in the upper part of
-Mr. Dowel's store, a large number of citizens, several of the Star Fire
-Company, were at work in the interior, in assisting in attempting to extinguish
-the flames.<span style='mso-spacerun:yes'>  </span>At this moment the west
-gable wall of the warehouse fell in which a tremendous crash, bursting in
-through the second and first story floors, killing seven of our valued and
-respected citizens, and wounding several others.<span
-style='mso-spacerun:yes'>  </span>A cry of horror rose at this catastrophe.<span
-style='mso-spacerun:yes'>  </span>The stoutest heart quailed under the suddenness
-and fearfulness of the calamity.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> 
-</span>Measures were immediately taken to rescue the bodies from the ruins, and
-to see who were dead and wounded.<span style='mso-spacerun:yes'>  </span>These
-exertions continued until 11 o'clock, on Saturday morning, when the last body
-was found.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> 
-</span>Besides those killed, there were several citizens quite severely
-wounded.<span style='mso-spacerun:yes'>  </span>Messrs. Francis A. Marbunry, R.
-A. Stone, Wm. H. Lambert, Charles J. Wise, and David Williams, were bruised and
-hurt, and narrowly escaped death, and John Dogan, a colored man, was buried up
-in the ruins, but was subsequently dug out, without being seriously injured.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>As the
-bodies were successively brought from the mass of burning materials, the most
-intense grief was exhibited by the hundreds assisting in the melancholy duties
-of the occasion.<span style='mso-spacerun:yes'>  </span>The victims were all
-much bruised and burnt, and mangled.<span style='mso-spacerun:yes'>  </span>The
-remains were carried to the homes of the deceased, followed by weeping crowds.<span
-style='mso-spacerun:yes'>  </span>And Oh! who can paint the desolation of those
-homes!<span style='mso-spacerun:yes'>  </span>Who can tell the grief of the
-bereaved widows, the fatherless children, the affectionate fathers, mothers,
-sisters and brothers.<span style='mso-spacerun:yes'>  </span>Mr. Plain, Mr.
-Taylor, Mr. Roach, Mr. Kane, and Mr. Evans were married men with families; the
-other victims were young men in the pride and prime of life.<span
-style='mso-spacerun:yes'>  </span>When their epitaph is written let it be:<span
-style='mso-spacerun:yes'>  </span>&quot;They died at the post of danger and
-duty!&quot;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> 
-</span>Profound grief reigned over this city.<span style='mso-spacerun:yes'> 
-</span>The calamity was so sadden and so severe, that it seemed as if the
-citizens could scarcely realize its horrors.<span style='mso-spacerun:yes'> 
-</span>Business stopped its wheels -- and the most careless were brought to
-reflect seriously on such a melancholy event.<span style='mso-spacerun:yes'> 
-</span>What must be the feelings of the incendiary -- if he has a human heart
-in his bosom!<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Dreadful Calamity -- A fire <span
 class=SpellE>occured</span> at Alexandria, Virginia, on Saturday evening, which
 proved very disastrous, not only in the destruction of property but of human
@@ -2553,20 +2004,14 @@ style='mso-spacerun:yes'>     </span>Business stopped its wheels -- and the most
 careless were brought to reflect seriously on such a melancholy event.<span
 style='mso-spacerun:yes'>     </span>What must be the feelings of the incendiary
 -- if he has a human heart in his bosom!<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Reed, George Reed<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>April 25, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 25,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>An Irishman named George
 Reed, aged 20 years, employed on the gravel train was killed at Bell Air on the
@@ -2587,24 +2032,20 @@ Ridgeway<o:p></o:p></span></b></p>
 December 19, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 13th inst., in <st1:City
-w:st="on"><st1:place w:st="on">Benton</st1:place></st1:City> township, Mrs.
-Mary Ridgeway, aged about 80 years.<o:p></o:p></span></p>
+w:st="on"><st1:place w:st="on">Benton</st1:place></st1:City> <span class=GramE>township</span>,
+Mrs. Mary Ridgeway, aged about 80 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Roth, Mrs. ______ Roth<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>March 21, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 21,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - In this township, on
-the 18th inst., Mrs. _____ Roth, wife of Mr. Nicholas Roth, at an advanced age.<o:p></o:p></span></p>
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt'>Died - In
+this township, on the 18th inst., Mrs. _____ Roth, wife of Mr. Nicholas Roth,
+at an advanced age.</span></span><span style='font-size:14.0pt'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2614,7 +2055,8 @@ the 18th inst., Mrs. _____ Roth, wife of Mr. Nicholas Roth, at an advanced age.<
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Evans, John Evans<o:p></o:p></span></b></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Gouldin, Samuel Gouldin<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Gouldin</span></b></span><b><span
+style='font-size:14.0pt'>, Samuel <span class=SpellE>Gouldin</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Lester, John Lester<o:p></o:p></span></b></p>
 
@@ -2622,49 +2064,6 @@ the 18th inst., Mrs. _____ Roth, wife of Mr. Nicholas Roth, at an advanced age.<
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Howe, Jos. Howe<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>March 28, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-Coal Pit Explosion – The Richmond Dispatch contains the particulars of the
-explosion at the Midolothian Coal Pits in <st1:City w:st="on">Chesterfield</st1:City>
-county, <st1:State w:st="on"><st1:place w:st="on">Va.</st1:place></st1:State>,
-on Monday, which has been mentioned in our paper by telegraph.<span
-style='mso-spacerun:yes'>  </span>The Dispatch says:<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-explosion, when it took place, caused the earth, for miles around the pits, to
-wave and rock as a twig in the wind.<span style='mso-spacerun:yes'>  </span>One
-gentleman, who was crossing the railroad about a mile from the pits at the
-time, said he felt the rail reel under him; and another, who was passing the
-road on horse-back, declared that his beast staggered and trembled, as if
-suddenly shocked by a tremendous galvanic battery.<span
-style='mso-spacerun:yes'>  </span>The center boards around the shafts were
-blown off as if they had been paper, and at the western shaft two large cable
-chains were broken in two as easily as if they had been pipe stems.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>It is
-supposed the explosion was caused by an accidental ignition of gas.<span
-style='mso-spacerun:yes'>  </span>Of 50 persons in the pit at the time, 34 were
-taken out dead or in the agonies of death, of whom 27 were slaves and 6 white
-persons.<span style='mso-spacerun:yes'>  </span>The names of the latter are:
-Thos. Dunn, John Evans, Samuel Gouldin, John Lester, J. Jewett and Jos. Howe.<span
-style='mso-spacerun:yes'>  </span>Four whites – John Howe, S. Hunt, N. Hani and
-Thos. Kenedly – were badly burned, as were also twelve slaves.<span
-style='mso-spacerun:yes'>  </span>The dispatch adds:<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Some
-of the dead men, the flesh charred on the bone, held their shovels in their
-hands – others were holding their picks and drills; and Sanuel Hunt, a small
-boy, who had been deprived of reason for the time, by the concuccion, was
-calling loudly to the mule he had been driving to go along.<span
-style='mso-spacerun:yes'>  </span>Those who were not dead, as soon as they
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 28,
 1855<o:p></o:p></span></p>
@@ -2708,25 +2107,14 @@ and drills; and <span class=SpellE>Sanuel</span> Hunt, a small boy, who had
 been deprived of reason for the time, by the <span class=SpellE>concuccion</span>,
 was calling loudly to the mule he had been driving to go along.<span
 style='mso-spacerun:yes'>     </span>Those who were not dead, as soon as they
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 heard the voices of their friends, begged earnestly not to be left, and then
 prayed loudly for a few drops of water to quench their burning thirst.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Thoma, (Daughter) Thoma<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Thoma</span></b></span><b><span
+style='font-size:14.0pt'>, (Daughter) <span class=SpellE>Thoma</span><o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>April 18, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'>Burned to Death - A daughter
-of Jacob Thoma, of <st1:State w:st="on"><st1:place w:st="on">Ohio</st1:place></st1:State>
-township, in this county, aged about 12 years, was, on Wednesday of last week,
-at the sugar camp of her father, alone, when by some means her clothes took
-fire and were all burned off except her stockings.<span
-style='mso-spacerun:yes'>  </span>She died the same evening.<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>April</span> 18, 1855<o:p></o:p></span></p>
 
@@ -2737,41 +2125,32 @@ this county, aged about 12 years, was, on Wednesday of last week, at the sugar
 camp of her father, alone, when by some means her clothes took fire and were
 all burned off except her stockings.<span style='mso-spacerun:yes'>     </span>She
 died the same evening.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Ullom, William Ullom<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Ullom</span></b></span><b><span
+style='font-size:14.0pt'>, William <span class=SpellE>Ullom</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 September 26, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - In <st1:City w:st="on"><st1:place
- w:st="on">Benton</st1:place></st1:City> township, in this county, on Wednesday
-morning, September 19, of Typhoid fever, Mr. William Ullom, aged 50 years.<o:p></o:p></span></p>
+ w:st="on">Benton</st1:place></st1:City> <span class=GramE>township</span>, in
+this county, on Wednesday morning, September 19, of Typhoid fever, Mr. William <span
+class=SpellE>Ullom</span>, aged 50 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Ullom, William Ullom<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Ullom</span></b></span><b><span
+style='font-size:14.0pt'>, William <span class=SpellE>Ullom</span><o:p></o:p></span></b></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Ullom, George Ullom<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Ullom</span></b></span><b><span
+style='font-size:14.0pt'>, George <span class=SpellE>Ullom</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 November 14, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>An Afflicted Family -- A few
-<<<<<<< HEAD
-weeks ago we noticed the death of Mr. William Ullom, of <st1:City w:st="on"><st1:place
- w:st="on">Benton</st1:place></st1:City> township, in this county, of typhoid
-fever.<span style='mso-spacerun:yes'>  </span>But a few days elapsed until Mrs.
-Ullom fell a victim to the same disease.<span style='mso-spacerun:yes'> 
-</span>Mrs. Dicks, their oldest daughter, and wife of Mr. George Dicks, was the
-next victim -- followed in a short time by one of their children.<span
-style='mso-spacerun:yes'>  </span>And now we are called upon to record the
-sudden death, by the same disease, of Mr. George Ullom, eldest son of Mr. Wm.
-Ullom.<span style='mso-spacerun:yes'>  </span>The death of George occurred in
-some four or five days fater he was first attacked.<o:p></o:p></span></p>
-=======
 weeks ago we noticed the death of Mr. William <span class=SpellE>Ullom</span>,
 of <st1:City w:st="on"><st1:place w:st="on">Benton</st1:place></st1:City> <span
 class=GramE>township</span>, in this county, of typhoid fever.<span
@@ -2785,7 +2164,6 @@ George <span class=SpellE>Ullom</span>, eldest son of Mr. Wm. <span
 class=SpellE>Ullom</span>.<span style='mso-spacerun:yes'>     </span>The death of
 George occurred in some four or five days <span class=SpellE>fater</span> he
 was first attacked.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2796,14 +2174,9 @@ October 24, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Found - At the landing at <st1:place
 w:st="on"><st1:City w:st="on">Sardis</st1:City>, <st1:State w:st="on">Ohio</st1:State></st1:place>,
-<<<<<<< HEAD
-on the 11th inst., the body of a little girl, about seven years of age --<span
-style='mso-spacerun:yes'>  </span>supposed to have been drowned.<o:p></o:p></span></p>
-=======
 on the 11th inst., the body of a little girl, about seven years of age <span
 class=GramE>--<span style='mso-spacerun:yes'>     </span>supposed</span> to have
 been drowned.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2822,20 +2195,17 @@ was a victim to political conspiracy, calculated to crush innocent women.<o:p></
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Venham, Rhea Venham<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Venham</span></b></span><b><span
+style='font-size:14.0pt'>, Rhea <span class=SpellE>Venham</span><o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>March 21, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 21,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 5th inst., at
-the residence of his son-in-law, Noble Stewart, near Sistersville, Tyler Co.,
-Va., Rhea Venham, in the 84th year of his age.<o:p></o:p></span></p>
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt'>Died - On
+the 5th inst., at the residence of his son-in-law, Noble Stewart, near
+Sistersville, Tyler Co., Va., Rhea <span class=SpellE>Venham</span>, in the
+84th year of his age.</span></span><span style='font-size:14.0pt'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2844,11 +2214,13 @@ Va., Rhea Venham, in the 84th year of his age.<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 October 24, 1855<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - At Sardis, Ohio, on
-Saturday the 13th inst., Elisabeth, daughter of Lemuel Wait, aged 18 years.<o:p></o:p></span></p>
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt'>Died - At
+Sardis, Ohio, on Saturday the 13th inst., Elisabeth, daughter of <span
+class=SpellE>Lemuel</span> Wait, aged 18 years.</span></span><span
+style='font-size:14.0pt'><o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>&quot;Write, Blessed are the
-dead that died in the Lord.&quot;<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-size:14.0pt'>&quot;Write, <span
+class=GramE>Blessed</span> are the dead that died in the Lord.&quot;<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2876,39 +2248,20 @@ of George and Christina Schmitt. She married January 1, 1853 to George Walter.<o
 w:st="on"><st1:place w:st="on">Lydia</st1:place></st1:country-region> Ann
 Walters<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 30, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 30,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 26th inst., of
-consumption, Lydia Ann, wife of Mr. Jonah Walters, of this township, in the
-30th year of her age.<o:p></o:p></span></p>
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt'>Died - On
+the 26th inst., of consumption, Lydia Ann, wife of Mr. Jonah Walters, of this
+township, in the 30th year of her age.</span></span><span style='font-size:
+14.0pt'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Wehr, John Richard Wehr<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Wehr</span></b></span><b><span
+style='font-size:14.0pt'>, John Richard <span class=SpellE>Wehr</span><o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>May 16, 1855<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - On Monday the 30th
-ult., in <st1:City w:st="on"><st1:place w:st="on">Calais</st1:place></st1:City>,
-John Richard, only son of Joseph and Nancy Wehr, aged four years, one month and
-nineteen days.<span style='mso-spacerun:yes'>  </span>In the deceased, was
-embodied, all that the heart of adoring parents could wish in a child of his
-age.<span style='mso-spacerun:yes'>  </span>To great personal beauty, was added
-a high grade of intellect unsurpassed by boys of his years.<span
-style='mso-spacerun:yes'>  </span>From morning dawn till twilight eve, his
-merry voice gave happy cheer to the children of the village: but relentless
-Croup, like an untimely frost, has nipt the brightest flower in its budding,
-and little John has gone to bloom in the paradise of God. J.M.S.<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>May</span> 16,
 1855<o:p></o:p></span></p>
@@ -2925,7 +2278,6 @@ twilight eve, his merry voice gave happy cheer to the children of the village:
 but relentless Croup, like an untimely frost, has <span class=SpellE>nipt</span>
 the brightest flower in its budding, and little John has gone to bloom in the
 paradise of God. <span class=GramE>J.M.S.</span><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2935,32 +2287,23 @@ paradise of God. <span class=GramE>J.M.S.</span><o:p></o:p></span></p>
 November 28, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 19th inst., at
-the residence of his son-in-law, in summit township, Mr. James Wilson, aged
-about 70 years.<o:p></o:p></span></p>
+the residence of his son-in-law, in <span class=GramE>summit township</span>,
+Mr. James Wilson, aged about 70 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:14.0pt'>Windland, Mrs. Anne
-Windland<o:p></o:p></span></b></p>
+<p class=MsoNormal><span class=SpellE><b><span style='font-size:14.0pt'>Windland</span></b></span><b><span
+style='font-size:14.0pt'>, Mrs. Anne <span class=SpellE>Windland</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 December 19, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - At her residence in <st1:State
-w:st="on"><st1:place w:st="on">Washington</st1:place></st1:State> county, on
-the 11th inst., Mrs. Anne Windland, aged 40 years.<o:p></o:p></span></p>
+w:st="on"><st1:place w:st="on">Washington</st1:place></st1:State> <span
+class=GramE>county</span>, on the 11th inst., Mrs. Anne <span class=SpellE>Windland</span>,
+aged 40 years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-deceased was a daughter of the late William Hutcheson, of this township.<span
-style='mso-spacerun:yes'>  </span>She had been for some years a consistent and
-devoted member of the Presbyterian Church, and was beloved and esteemed by all
-who knew her.<span style='mso-spacerun:yes'>  </span>She leaves a kind and
-affectionate husband, and eight small children, together with a large circle of
-friends and acquaintances to mourn her loss.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>                 </span>The deceased was a daughter of the late
 William Hutcheson, of this township.<span style='mso-spacerun:yes'>     </span>She
 had been for some years a consistent and devoted member of the Presbyterian
@@ -2968,7 +2311,6 @@ Church, and was beloved and esteemed by all who knew her.<span
 style='mso-spacerun:yes'>     </span>She leaves a kind and affectionate husband,
 and eight small children, together with a large circle of friends and
 acquaintances to mourn her loss.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>&quot;Happy soul thy days are
 ended --<o:p></o:p></span></p>
@@ -2976,20 +2318,10 @@ ended --<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>All thy mourning days below:<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Go - the angel guards
-attending --<o:p></o:p></span></p>
+attending <span class=GramE>--</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>To the heaven of Jesus
-<<<<<<< HEAD
-go.&quot; <span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'>  </span>J.W.G.<o:p></o:p></span></p>
-=======
 go.&quot;<span style='mso-spacerun:yes'>                                                     </span><span class=GramE>J.W.G.</span><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -2999,59 +2331,6 @@ go.&quot;<span style='mso-spacerun:yes'>                                        
 July 25, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-newspapers have already announced the death of Peter Witten, who departed this
-life on Friday the 22d ult., at the ripe age of 69 years.<span
-style='mso-spacerun:yes'>  </span>The fine qualities, and generous, manly
-nature of the deceased, which had not failed in a long life to endear him to a
-multitude of friends, and to attach to him in a remarkable degree the
-affections of a numerous family connexion, [sic] seem fairly to demand
-something more than the ordinary mention of a life extinguished.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Mr.
-Witten was born in Western Virginia, about <st1:City w:st="on">Wheeling</st1:City>,
-when it was a frontier settlement; and soon after <st1:State w:st="on">Ohio</st1:State>
-became an organized territory, he located himself there, on the spot where he
-spent his life, on the bank of the <st1:State w:st="on">Ohio</st1:State>, at
-the head of the Long Reach, and opposite Williamson's Island, in <st1:City
-w:st="on"><st1:place w:st="on">Monroe</st1:place></st1:City> county.<span
-style='mso-spacerun:yes'>  </span>From the palmy time of keelboat supremacy,
-when the curdelle [sic] and the pushing pole were the motive powers of our
-transit trade, down to this day of stean palaces that fly with double and
-quadruple engines, there have been few of our navigators whom the exigencies
-[sic] and accidents of river life, have not put upon the acquaintance and
-hospitalities of Peter Witten, and often upon his kind offices for help and
-succor.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>The
-head of Long Reach and Williamson's <st1:place w:st="on">Island</st1:place>
-mark one of those points of a rather precarious navigation, where often occurs
-a tedious pause in the progress of river craft of all classes and at all
-seasons of the year.<span style='mso-spacerun:yes'>  </span>Irksome as are
-those vicissitudes of river travel, and often as crews and passengers, even in
-large numbers, have been thrown at once upon his generosity, there are few who
-have encountered such delays within hail or sight of Peter Witten's homestead,
-and cannot recall with pleasure and exhilaration the generous warmth of welcome
-and the bounteous hospitalities with which Mr. Witten made &quot;open
-house&quot; to all comers.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> 
-</span>Himself a Virginian gentleman of that admirable stamp, wherein the
-courtly polish, and the elaborate hospitalities of the &quot;Old Daminion
-school, have been rendered more genial and hearty by freshening and manly
-features acquired in pioneer life, Mr. Witten was an example of moderation and
-heartiness in the midst of all those forms of sport, recreation and indulgence,
-which it is the customs of this day to connect with excess, and to deplore as
-leading to vice.<span style='mso-spacerun:yes'>  </span>The bottle on his
-sideboard, which in the days of his youth was the sign and seal of welcome to
-his board and hearthstone, never counseled in his lifetime to drunken orgics,
-=======
 style='mso-spacerun:yes'>         </span>The newspapers have already announced the
 death of Peter Witten, who departed this life on Friday the 22d ult., at the
 ripe age of 69 years.<span style='mso-spacerun:yes'>     </span>The fine
@@ -3100,45 +2379,11 @@ this day to connect with excess, and to deplore as leading to vice.<span
 style='mso-spacerun:yes'>     </span>The bottle on his sideboard, which in the
 days of his youth was the sign and seal of welcome to his board and
 hearthstone, never counseled in his lifetime to drunken <span class=SpellE>orgics</span>,
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 but continued to bear its part in an old fashion of hospitality, which it was
 his pride to preserve in its hearty original, as he derived it from Old
 Virginia.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>With a
-robust and active frame, exuberant spirits and a strong original mind,
-qualified by the most engaging simplicity of character, Mr. Witten was just as
-ready to try conclusions in a jump, a foot race or a horse race, (and he kept
-the finest stock in Ohio), as he was for the more dignified reach of a canvass
-for the Legislature.<span style='mso-spacerun:yes'>  </span>He twice
-represented his district in the Ohio Legislature with credit to himself.<span
-style='mso-spacerun:yes'>  </span>But his free spirit shrank from the
-Legislative halls, and avowing his disrelish for the vocation of law maker, he
-has latterly shunned the<span style='mso-spacerun:yes'>  </span>political arena
-altogether.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:14.0pt'><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>Mr.
-Witten was the father of twelve children, five sons and seven daughters; all
-reared in <st1:City w:st="on"><st1:place w:st="on">Monroe</st1:place></st1:City>
-county, and all, save one daughter, survive him.<span
-style='mso-spacerun:yes'>  </span>Four of his sons are well known as pilots on
-the <st1:place w:st="on">Ohio river</st1:place>.<span
-style='mso-spacerun:yes'>  </span>One of these, the youngest, we believe,
-contracted the small pox and betook himself home to be nursed through the
-course of that dangerous disease.<span style='mso-spacerun:yes'>  </span>The
-contagion spread through the family, and every member of it at home was in turn
-seized.<span style='mso-spacerun:yes'>  </span>The venerable father was perhaps
-the last attacked, and he in the most malignant form.<span
-style='mso-spacerun:yes'>  </span>The youngest daughter, Temperance, with
-heroic self-devotion, although at the time sustaining an attack of the same
-loathsome disease, gave herself up to nursing and attendance upon her father.<span
-style='mso-spacerun:yes'>  </span>But not even the offices of an affection so
-=======
 style='mso-spacerun:yes'>                 </span>With a robust and active frame, exuberant
 spirits and a strong original mind, qualified by the most engaging simplicity
 of character, Mr. Witten was just as ready to try conclusions in a jump, a foot
@@ -3167,17 +2412,11 @@ attacked, and he in the most malignant form.<span style='mso-spacerun:yes'>
 at the time sustaining an attack of the same loathsome disease, gave herself up
 to nursing and attendance upon her father.<span style='mso-spacerun:yes'>    
 </span>But not even the offices of <span class=GramE>an affection</span> so
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 unselfish and sleepless could avail, and the venerable father, alone of the
 household, sank under the visitation.<span style='mso-spacerun:yes'>     </span>He
 leaves a good example and a memory that will be long and warmly cherished by a
-<<<<<<< HEAD
-throng of friends, and affectionately revered by his children. <span
-style='mso-spacerun:yes'>  </span>W.<o:p></o:p></span></p>
-=======
 throng of friends, and affectionately revered by his children.<span
 style='mso-spacerun:yes'>         </span>W.<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -3188,7 +2427,8 @@ June 27, 1855<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - On the 22d inst., at
 his residence in <st1:City w:st="on"><st1:place w:st="on">Jackson</st1:place></st1:City>
-township, of small pox, Peter Witten, aged about seventy years.<o:p></o:p></span></p>
+<span class=GramE>township</span>, of small pox, Peter Witten, aged about
+seventy years.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Mr. Witten has long been a
 resident of this county, and was well known to many of its citizens.<span
@@ -3203,10 +2443,10 @@ hearted man, and good neighbor, few excelled our deceased friend.<o:p></o:p></sp
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy -
 December 12, 1855<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Died - In Green township, <st1:City
-w:st="on"><st1:place w:st="on">Monroe</st1:place></st1:City> county, on the
-15th of November, of Typhoid fever, Francis Marion Wood, aged 17 years, 9
-months and twenty-three days.<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-size:14.0pt'>Died - In Green <span
+class=GramE>township</span>, <st1:City w:st="on"><st1:place w:st="on">Monroe</st1:place></st1:City>
+county, on the 15th of November, of Typhoid fever, Francis Marion Wood, aged 17
+years, 9 months and twenty-three days.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -3231,7 +2471,8 @@ dear,<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>Far, far removed from grief
 and pain,<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Supported by my Maker's hand.<o:p></o:p></span></p>
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt'>Supported
+by my Maker's hand.</span></span><span style='font-size:14.0pt'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>.<o:p></o:p></span></p>
 
@@ -3241,8 +2482,8 @@ tear,<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>That glistens on your
 moistened cheek,<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:14.0pt'>Nor think again on sombre
-bier,<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-size:14.0pt'>Nor think again on <span
+class=SpellE>sombre</span> bier,<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Nor of my earthly sufferings
 speak.<o:p></o:p></span></p>
@@ -3261,33 +2502,15 @@ bow,<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt'>And be ye blest as well as I.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:14.0pt'><span
-<<<<<<< HEAD
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>A
-Friend.<o:p></o:p></span></p>
-=======
 style='mso-spacerun:yes'>                                                                         </span><span class=GramE>A Friend.</span><o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:14.0pt'>Yoho, Mary Yoho<o:p></o:p></span></b></p>
 
-<<<<<<< HEAD
-<p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of Democracy<span
-style='mso-spacerun:yes'>  </span>March 21, 1855<o:p></o:p></span></p>
-=======
 <p class=MsoNormal><span style='font-size:14.0pt'>Source: Spirit of <span
 class=GramE>Democracy<span style='mso-spacerun:yes'>     </span>March</span> 21,
 1855<o:p></o:p></span></p>
->>>>>>> ef9da23e9f6816b69f175e37096e452723be7711
 
 <p class=MsoNormal><span style='font-size:14.0pt'>Died - In this township, on
 the 15th inst., Mary Yoho, relict of John Yoho, aged about 70 years.<o:p></o:p></span></p>
